@@ -92,6 +92,10 @@ at layers 0, 5, 10, and 28. The class separation emerging between layers 0 and
 trajectory with horizontal bands for the TF-IDF baseline, lexical baseline
 (layer 0), control task, and chance level.
 
+![Probe accuracy by layer](results/probe_accuracies.png)
+![t-SNE by layer](results/tsne_by_layer.png)
+![Comparison Qwen vs TF-IDF](results/comparison_qwen_vs_tfidf.png)
+
 ---
 
 ## Repository layout
