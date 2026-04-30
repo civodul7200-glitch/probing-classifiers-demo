@@ -1,0 +1,36 @@
+{
+  "mean_acc": 0.7222222222222222,
+  "std_acc": 0.08445743889623245,
+  "scores_per_fold": [
+    0.6666666666666666,
+    0.6666666666666666,
+    0.8148148148148148,
+    0.6296296296296297,
+    0.8333333333333334
+  ],
+  "metadata": {
+    "method": "TF-IDF + LogisticRegression",
+    "vectorizer_params": {
+      "ngram_range": [
+        1,
+        2
+      ],
+      "lowercase": true,
+      "max_features": 5000,
+      "min_df": 1,
+      "stop_words": null
+    },
+    "n_features_actual": 1366,
+    "n_phrases": 132,
+    "n_classes": 3,
+    "label_mapping": {
+      "anger": 0,
+      "joy": 1,
+      "neutral": 2
+    },
+    "baseline_chance_level": 0.3333333333333333,
+    "cv": "GroupKFold(n_splits=5), groups=triplets",
+    "probe": "Pipeline(StandardScaler(with_mean=False), LogisticRegression(C=0.1))",
+    "seed": 42
+  }
+}
